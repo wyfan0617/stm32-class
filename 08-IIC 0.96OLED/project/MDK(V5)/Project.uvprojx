@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\app;..\..\board;..\..\bsp;..\..\libraries\CMSIS\CM3\CoreSupport;..\..\libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x;..\..\libraries\STM32F10x_StdPeriph_Driver\inc;..\..\module;..\..\bsp\uart</IncludePath>
+              <IncludePath>..\..\app;..\..\board;..\..\bsp;..\..\libraries\CMSIS\CM3\CoreSupport;..\..\libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x;..\..\libraries\STM32F10x_StdPeriph_Driver\inc;..\..\module;..\..\bsp\oled</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -408,6 +408,13 @@
         </Group>
         <Group>
           <GroupName>BSP</GroupName>
+          <Files>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\bsp\oled\oled.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Board</GroupName>
