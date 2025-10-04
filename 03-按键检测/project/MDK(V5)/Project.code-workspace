@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "bsp_key.h": "c",
+            "stm32f10x.h": "c"
+        }
+    },
+    "extensions": {}
+}

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/code/stm32/嵌入式培训——基础班/05-外部中断/app/**)",
+      "Read(//d/code/stm32/嵌入式培训——基础班/05-外部中断/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
